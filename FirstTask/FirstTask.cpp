@@ -16,7 +16,7 @@ int main() {
 
     swapNumb(&a, &b);
 
-    std::cout << a << " " << b;
-
+    std::cout << a << " " << b << "\n";
+    system("pause");
     // 20 10
 }
