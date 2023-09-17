@@ -2,7 +2,7 @@
 
 using namespace std;
 
-void swapNumb(int* a, int* b)
+void swapNumbers(int* a, int* b)
 {
     int tmp = *a;
     *a = *b;
@@ -14,7 +14,7 @@ int main() {
 
     int b = 20;
 
-    swapNumb(&a, &b);
+    swapNumbers(&a, &b);
 
     std::cout << a << " " << b << "\n";
     system("pause");
